@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Caprasimo', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 180vh;
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+main {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+
+#hero {
+    width: 100%;
+    height: 50%;
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    width: 70%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.welcome-container {
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 150px;
+}
+
+.welcome-text {
+    height: 100%;
+    display: block;
+    flex: 1 1 0;
+    font: 18px;
+    color: #e5e7eb;
+    padding-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-style: extra-bold;
+}
+
+.welcome-subtext {
+    margin-bottom: 10px;
+}
+
+.welcome-container img {
+    height: 100%;
+    flex: 1.3 1 0;
+    object-fit: cover;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10%;
+    border: none;
+}
