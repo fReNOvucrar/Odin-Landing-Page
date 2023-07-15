@@ -11,19 +11,19 @@ body {
     overflow: hidden;
     overflow-y: auto;
     width: 100%;
-    height: 200vh;
+    height: 260vh;
 }
 
 main {
     width: 100%;
-    height: 200vh;
+    height: 260vh;
     margin: 0 auto;
 }
 
 
 #hero {
     width: 100%;
-    height: 40%;
+    height: 30%;
     background: #1f2937;
     padding: 0 200px 0 200px;
 }
@@ -61,7 +61,7 @@ main {
 
 .welcome-container {
     width: 100%;
-    height: 45%;
+    height: 60%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -90,6 +90,7 @@ h1 {
     height: 100%;
     flex: 1.3 1 0;
     object-fit: cover;
+    border: 2px solid #e5e7eb
 }
 
 button {
@@ -101,8 +102,8 @@ button {
 }
 
 #images-section {
-    background: whitesmoke;
-    height: 35%;
+    background: white;
+    height: 30%;
     padding: 0 200px 0 200px;
 }
 
@@ -141,3 +142,32 @@ figcaption {
     text-align: center;
     color: #1f2937;
 }
+
+#quote-section {
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #1f2937;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    height: 25%;
+    background: #e5e7eb;
+    padding: 0 200px;
+}
+
+.quote-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+}
+
