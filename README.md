@@ -1,1 +1,1 @@
-This is my Landing Page for the Odin Project.
+This is my rough draft Landing Page for the Odin Project.
